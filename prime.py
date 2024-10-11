@@ -7,3 +7,11 @@ def isPrime(number):
 			if number % value == 0:
 				return False
 		return True
+
+
+def checkPrime(flag):
+	"""Prints if number is prime"""
+	if flag:
+		print("Number is prime.")
+	else:
+		print("Number is NOT prime.")
